@@ -15,7 +15,13 @@
         th:href="@{/css/style.css}" rel="stylesheet" media="screen"/>
 </head>
 <body>
-<h1>Hello!</h1>
-<h2>Hello again.</h2>
+<div class="container">
+    <div class="jumbotron">
+        <img src="../static/images/helloworld.png" width="1000"
+             th:src="@{images/helloworld.png}"/>
+        <h1>Hello!</h1>
+        <h2>Hello again.</h2>
+    </div>
+</div>
 </body>
 </html>
